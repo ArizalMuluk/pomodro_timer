@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Pomodoro Timer</h1>
+        <div class="mode-selector">
+            <button id="mode-pomodoro" class="mode-btn active">Pomodoro</button>
+            <button id="mode-short-break" class="mode-btn">Short Break</button>
+        </div>
+        <div class="timer">
+            <span id="time">25:00</span>
+        </div>
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="theme-selector">
+            <label for="theme">Theme:</label>
+            <select id="theme">
+                <option value="pixel">Pixel</option>
+                <option value="retro">Retro</option>
+                <option value="forest">Forest</option>
+            </select>
+        </div>
+    </div>
+    <script src="scripts/timer.js"></script>
+</body>
+</html>
