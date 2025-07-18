@@ -1,4 +1,4 @@
-# Pixel Pomodoro Timer
+# Pomodoro Timer
 
 Welcome to the Pixel Pomodoro Timer project! This is a simple yet modern static website that implements a Pomodoro timer with a pixel art theme. The timer helps you manage your work sessions effectively by using the Pomodoro Technique.
 
@@ -11,7 +11,7 @@ Welcome to the Pixel Pomodoro Timer project! This is a simple yet modern static 
 ## Project Structure
 
 ```
-pixel-pomodoro
+pomodoro
 ├── src
 │   ├── index.html        # Main HTML document for the Pomodoro timer interface
 │   ├── styles
@@ -30,7 +30,7 @@ To get started with the Pixel Pomodoro Timer, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/pixel-pomodoro.git
+   git clone https://github.com/ArizalMuluk/pomodro_timer.git
    ```
 
 2. **Navigate to the Project Directory**:
@@ -50,7 +50,3 @@ To get started with the Pixel Pomodoro Timer, follow these steps:
 ## Customization
 
 Feel free to customize the styles in `src/styles/style.css` and the timer functionality in `src/scripts/timer.js` to suit your preferences.
-
-## License
-
-This project is open-source and available under the MIT License. Enjoy using the Pixel Pomodoro Timer!
